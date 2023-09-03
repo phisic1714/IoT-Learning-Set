@@ -4,15 +4,15 @@ ______________________________________________________
 -----------------
 No. |ชื่อเรื่อง|
 ----- |----- |
-1)|[บทที่ 1 ทำความคุ้นเคยกับ Tool, หลอดไฟ LED, LED 7-Segment(Datasheet), การคำนวณ R อนุกรม](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%201)|
-2)|[บทที่ 2 Input Digital: Button, Debounce, Intterrupt](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%202)|
-3)|[บทที่ 3 Input Analog: Vr, PWM: DC Motor](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%203)|
-4)|[บทที่ 4 จอ LCD I2C, MCP23008, เซ็นเซอร์วัดอุณหภูมิและความชื้น](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%204)|
-5)|[บทที่ 5 SPI RFID, SD Card, Keycard (offline)](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%205)|
-6)|[บทที่ 6 MQTT, Node-RED, RFID, Keycard (online)](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%206)|
-7)|[บทที่ 7 GPS, Google map, Firebase](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%207)|
-8)|[บทที่ 8 Graph อุณหภูมิ ความชื้นผ่านเว็บไซต์](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%208)|
-9)|[บทที่ 9 เปิดปิดอุปกรณ์ผ่านเว็บ ตั้งเงื่อนไขในการเปิดปิดได้](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%209)|
-10)|[บทที่ 10 แจ้งเตือนผ่าน Line](https://github.com/phisic1714/IoT-Learning-Set/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%2010)|
+1)|[บทที่ 1 ทำความคุ้นเคยกับ Tool, หลอดไฟ LED, LED 7-Segment(Datasheet), การคำนวณ R อนุกรม](บทที่1\บทที่_1.md)|
+2)|[บทที่ 2 Input Digital: Button, Debounce, Intterrupt](บทที่2\บทที่_2.md)|
+3)|[บทที่ 3 Input Analog: Vr, PWM: DC Motor](บทที่3\บทที่_3.md)|
+4)|[บทที่ 4 จอ LCD I2C, MCP23008, เซ็นเซอร์วัดอุณหภูมิและความชื้น](บทที่4\บทที่_4.md)|
+5)|[บทที่ 5 SPI RFID, SD Card, Keycard (offline)](บทที่5\บทที่_5.md)|
+6)|[บทที่ 6 MQTT, Node-RED, RFID, Keycard (online)](บทที่6\บทที่_6.md)|
+7)|[บทที่ 7 GPS, Google map, Firebase](บทที่7\บทที่_7.md)|
+8)|[บทที่ 8 Graph อุณหภูมิ ความชื้นผ่านเว็บไซต์](บทที่8\บทที่_8.md)|
+9)|[บทที่ 9 เปิดปิดอุปกรณ์ผ่านเว็บ ตั้งเงื่อนไขในการเปิดปิดได้](บทที่9\บทที่_9.md)|
+10)|[บทที่ 10 แจ้งเตือนผ่าน Line](บทที่10\บทที่_10.md)|
 
 ______________________________________________________
