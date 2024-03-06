@@ -1,0 +1,236 @@
+## ใช้ Slide Node ควบคุมทิศทางไฟ LED ขยับ
+
+
+```ruby
+
+[
+    {
+        "id": "7062dd1cd70ea125",
+        "type": "tab",
+        "label": "บท9",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "aa50f02b2ab36f95",
+        "type": "mqtt out",
+        "z": "7062dd1cd70ea125",
+        "name": "",
+        "topic": "Dashboard/LED",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bc22f9fa38d5d08f",
+        "x": 980,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "932b5e6eca55e4d7",
+        "type": "debug",
+        "z": "7062dd1cd70ea125",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "3980d5de0a1ce3e8",
+        "type": "ui_switch",
+        "z": "7062dd1cd70ea125",
+        "name": "",
+        "label": "LED 1",
+        "tooltip": "",
+        "group": "f1fe76bfe30a6eb3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "LED 1 ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LED 1 OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "aa50f02b2ab36f95"
+            ]
+        ]
+    },
+    {
+        "id": "65c144d72b1b4998",
+        "type": "ui_switch",
+        "z": "7062dd1cd70ea125",
+        "name": "",
+        "label": "LED 2",
+        "tooltip": "",
+        "group": "f1fe76bfe30a6eb3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "LED 2 ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LED 2 OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 570,
+        "y": 480,
+        "wires": [
+            [
+                "aa50f02b2ab36f95",
+                "932b5e6eca55e4d7"
+            ]
+        ]
+    },
+    {
+        "id": "ea3525cb279d149b",
+        "type": "ui_switch",
+        "z": "7062dd1cd70ea125",
+        "name": "",
+        "label": "LED 3",
+        "tooltip": "",
+        "group": "f1fe76bfe30a6eb3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "LED 3 ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LED 3 OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "932b5e6eca55e4d7",
+                "aa50f02b2ab36f95"
+            ]
+        ]
+    },
+    {
+        "id": "386a7e1e8d7177a6",
+        "type": "ui_switch",
+        "z": "7062dd1cd70ea125",
+        "name": "",
+        "label": "LED 4",
+        "tooltip": "",
+        "group": "f1fe76bfe30a6eb3",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "LED 4 ON",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "LED 4 OFF",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 570,
+        "y": 640,
+        "wires": [
+            [
+                "aa50f02b2ab36f95",
+                "932b5e6eca55e4d7"
+            ]
+        ]
+    },
+    {
+        "id": "bc22f9fa38d5d08f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "203.158.245.180",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f1fe76bfe30a6eb3",
+        "type": "ui_group",
+        "name": "LED Control",
+        "tab": "e419f86d6cd6cd21",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "e419f86d6cd6cd21",
+        "type": "ui_tab",
+        "name": "LED Control",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
+
+```
